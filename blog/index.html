@@ -252,6 +252,9 @@ init_mathjax();
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
+                        <li >
+                            <a href="./category/jiao-xue-ying-pian.html">教學影片</a>
+                        </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><span>
@@ -271,6 +274,74 @@ init_mathjax();
     <div class="row">
         <div class="col-sm-9">
 
+            <article>
+                <h2><a href="./chan-hui-bi-ji-030.html">懺悔筆記030</a></h2>
+                <div class="summary"><p>在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm</p>
+<p>X Term:
+- cd 目前所在目錄
+- pwd 印出所在工作
+- clear 刷新
+- history 查看之前所下的指令
+- history&gt;his.txt 存指令
+- ls -l
+- cat hic.txt 1more (show出但只要一頁)
+- clear
+- sudo apt install stunnel4 -y
+- sudo vi /etc/defanult/stunnel4
+- ls -l
+- sudo mv localhost.* /etc/stunnel/
+- ls -l
+- cd -etc-stunnel
+- sudo ...</p>
+                    <a class="btn btn-default btn-xs" href="./chan-hui-bi-ji-030.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./he-wei-ji-jie-she-ji.html">何謂"機械設計"</a></h2>
+                <div class="summary"><p>*虛實整合最佳化
+機-精巧配置
+械-有一特定功能
+設-表達給人
+計-計算考量</p>
+<p>機械-"硬體""流體".....最佳化---&gt;機械最佳化</p>
+                    <a class="btn btn-default btn-xs" href="./he-wei-ji-jie-she-ji.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./she-wang-lu.html">設網路</a></h2>
+                <div class="summary"><p>1.網路共用中心
+2.乙太網路3
+3.去除TPV4的勾勾
+4.點"使用下列DNS伺服器位址"
+   慣用:2001:288:6004:1::2(::表示省略)
+   其他:2001:b000:1::168
+5.到遊覽器改Proxy
+   Poxy--&gt;LAN設定--&gt;學校IP:[2001:288:6004:17::17]</p>
+                    <a class="btn btn-default btn-xs" href="./she-wang-lu.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./virtualbox.html">virtualBox</a></h2>
+                <div class="summary"><p>*檔案&gt;喜好設定&gt;網路&gt;(1)MAT網路(用內部網路與虛擬主機連線) (2)僅限主機(僅用於虛擬內部)&gt;設定&gt;(3)橋皆顯示卡</p>
+<p>1-fossil clone uri fossrl-file
+2-fossil open vcp.fossil
+3-fossil add
+4-fossil commit -m
+(如沒密碼5-fossil remote-uel off)
+6-fossil psuh 
+7-ipconfig/all
+8-ping 自己的IP
+9-ping 外部Gateway
+10-ping 外部IP
+11-tracert 區網主要網址
+12-tracert 廣域網路主要網址</p>
+                    <a class="btn btn-default btn-xs" href="./virtualbox.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -281,11 +352,36 @@ init_mathjax();
 
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./chan-hui-bi-ji-030.html">
+                            懺悔筆記030
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./he-wei-ji-jie-she-ji.html">
+                            何謂"機械設計"
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./she-wang-lu.html">
+                            設網路
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./virtualbox.html">
+                            virtualBox
+                        </a>
+                    </li>
                 </ul>
             </li>
 
             <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
                 <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/jiao-xue-ying-pian.html">
+                            <i class="fa fa-folder-open fa-lg"></i> 教學影片
+                        </a>
+                    </li>
                 </ul>
             </li>
 
@@ -327,7 +423,7 @@ init_mathjax();
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy;  40523104
+         <div class="col-xs-10">&copy; 2017 40523104
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>

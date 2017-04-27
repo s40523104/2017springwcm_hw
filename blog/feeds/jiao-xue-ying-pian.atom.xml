@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40523104的個人作業Blog</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-25T00:00:00+08:00</updated><entry><title>懺悔筆記030</title><link href="./chan-hui-bi-ji-030.html" rel="alternate"></link><published>2017-04-25T00:00:00+08:00</published><updated>2017-04-25T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-04-25:./chan-hui-bi-ji-030.html</id><summary type="html">&lt;p&gt;在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40523104的個人作業Blog</title><link href="./" rel="alternate"></link><link href="./feeds/jiao-xue-ying-pian.atom.xml" rel="self"></link><id>./</id><updated>2017-04-25T00:00:00+08:00</updated><entry><title>懺悔筆記030</title><link href="./chan-hui-bi-ji-030.html" rel="alternate"></link><published>2017-04-25T00:00:00+08:00</published><updated>2017-04-25T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-04-25:./chan-hui-bi-ji-030.html</id><summary type="html">&lt;p&gt;在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm&lt;/p&gt;
 &lt;p&gt;X Term:
 - cd 目前所在目錄
 - pwd 印出所在工作
