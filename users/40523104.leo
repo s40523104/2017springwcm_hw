@@ -254,9 +254,9 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2">#郁淳的計算機程式課程
+<t tx="amd.20161004095719.2">#-網際網路內容管理-
 
-##四設一甲 40523104
+##四設一甲 40523104 馬郁淳
 &lt;small&gt;
 Created by [40523104](https://github.com/s40523104)
 &lt;/small&gt;
@@ -267,11 +267,11 @@ Created by [40523104](https://github.com/s40523104)
 [小組倉儲](https://github.com/s40523104/2017springwcm_g6) &lt;br/&gt;
 [小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
 </t>
-<t tx="amd.20161004104820.1">&lt;/section&gt;
-
+<t tx="amd.20161004104820.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
-
-						
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
@@ -384,7 +384,23 @@ DEFAULT_DATE = 'fs'</t>
 </t>
 <t tx="leo.20170421014941.3"></t>
 <t tx="leo.20170421014941.4"></t>
-<t tx="leo.20170421015127.1"></t>
+<t tx="leo.20170421015127.1">#如何修改 stunnel.conf 檔案/給定啟動電腦 IP:
+&lt;small&gt;
+&lt;br/&gt;
+y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
+&lt;br/&gt;
+=&gt;查IP:ipconig /all-----&gt;ip:X
+&lt;br/&gt;
+回Q的[https]下的accept改掉IP儲存
+&lt;br/&gt;
+去stunnel啟動configuration-&gt;Reload Configuration
+&lt;br/&gt;
+*倉儲名稱在tmp內
+&lt;br/&gt;
+&lt;/small&gt;
+
+
+</t>
 <t tx="leo.20170421115328.10">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -965,38 +981,165 @@ Diff...
 - &lt;p&gt;&lt;a href="https://vimeo.com/191363717"&gt;github&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 -     &lt;/script&gt;
 </t>
-<t tx="yen.20161011122601.1"></t>
-<t tx="yen.20161011122932.1">&lt;/section&gt;
-
-@others</t>
-<t tx="yen.20161011125115.1">&lt;/section&gt;
-
+<t tx="yen.20161011122601.1">#-虛擬主機-
+&lt;br/&gt;
+&lt;small&gt;
+到VatualBox管理員
+&lt;br/&gt;
+新增-ub(64-bit)-使用下載的虛擬碟
+&lt;br/&gt;
+ub設定-網路=&gt;橋接介面卡-開啟
+&lt;br/&gt;
+=&gt;輸入密碼-進入-sudo apt update-輸入密碼-(sudo rm /var/lib/dpkg/lock-sudo apt~~)-sudo apt install nginx-ifconfig-cd /var/www/html-/sudo vi index. nginx-debin.html
+&lt;br/&gt;
+*fossil clone http://domo@mde2a2.kmol.info/mad2a2 mde2a2.fossil
+&lt;br/&gt;
+("clone"從後免網址clone，"@後一串"綁定的帳號，"mde2a2.fossil"儲存地方
+&lt;br/&gt;
+&lt;br/&gt;
+Stunnel建立Fossil SCM server:
+&lt;br/&gt;
+pud-sudo vi /etc/cnvironment設定
+&lt;br/&gt;
+HTPS=ON---環境用HTPS
+&lt;br/&gt;
+打   /etc/init.d/stunnel4 restart/   可重新啟動stunnel4
+&lt;br/&gt;
+設定完成後重新開機---https://yourip連至mde2a1 fossil介面
+&lt;br/&gt;
+&lt;br/&gt;
+管理 html:
+&lt;br/&gt;
+跳轉:
+&lt;br/&gt;
+1.Html-&gt;meta代表中間無停留
+&lt;br/&gt;
+2.Java
+&lt;br/&gt;
+3."https://8.mde.tw"-使用者用
+&lt;/small&gt;</t>
+<t tx="yen.20161011122932.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
-
-						
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161011125115.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="yen.20161011143808.1">&lt;/section&gt;
-
-@others</t>
+@others
+&lt;/section&gt;</t>
 <t tx="yen.20161011143808.2"></t>
 <t tx="yen.20161011145156.1">&lt;/section&gt;
-
-@others</t>
-<t tx="yen.20161011145156.2"></t>
-<t tx="yen.20161016004633.1">&lt;/section&gt;
-
-@others</t>
-<t tx="yen.20161016004633.4"></t>
-<t tx="yen.20161016011920.1"></t>
-<t tx="yen.20161016012809.1">&lt;/section&gt;
-
 @others
+&lt;/section&gt;</t>
+<t tx="yen.20161011145156.2"></t>
+<t tx="yen.20161016004633.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
+<t tx="yen.20161016004633.4">#啟動 Fossil SCM:
+&lt;small&gt;
+&lt;br/&gt;
+建其他人的:
+&lt;br/&gt;
+--fossil init 4444.fossil
+&lt;br/&gt;
+--fossil sql -R 4444.fossil ("-R"是指定要看後面那一項的內容)
+&lt;br/&gt;
+問資料表--.schema user("user"資料表名稱)
+&lt;br/&gt;
+&lt;/small&gt;
+#查對應管理密碼:
+&lt;small&gt;
+&lt;br/&gt;
+select login.pw.cap from user;("select"選擇"login""pw""cap"3個欄位
+&lt;br/&gt;
+*進入後改密碼就不是明碼了
+&lt;/small&gt;
+</t>
+<t tx="yen.20161016011920.1">剪網路線:上網找其他的資料~
+&lt;br/&gt;
+&lt;small&gt;
+RJ45網路線接頭
+&lt;br/&gt;
+一定要有的工具：
+&lt;br/&gt;
+6P / 8P 網路線壓線鉗、8P8C網路接頭 、 保護套、斜口鉗、網路線。
+&lt;br/&gt;
+1.去皮。
+&lt;br/&gt;
+2.內線分四對，分別為橘白＋橘，綠白＋綠，藍白＋藍，棕白＋棕四對對絞。
+&lt;br/&gt;
+3.每對對絞線分開由左到右為橘白、橘、綠白、綠、藍白、藍，棕白、棕。
+&lt;br/&gt;
+4.整直後由左到右為橘白、橘、綠白、藍、藍白、綠，棕白、棕。
+&lt;br/&gt;
+5.將綠藍線對調。
+&lt;br/&gt;
+6.將線給插進去網路接頭內，固定彈片向外。
+&lt;br/&gt;
+7.壓線。
+&lt;br/&gt;
+&lt;br/&gt;
+以下節制網路補充:
+&lt;br/&gt;
+UTP 網路線：為八股對絞單芯線，無遮蔽
+&lt;br/&gt;
+‧FTP 網路線：為八股對絞單芯線，鋁箔遮蔽
+&lt;br/&gt;
+‧SFTP (簡稱STP)網路線：為八股對絞單芯線，鋁箔+銅編織網遮蔽
+&lt;br/&gt;
+‧Cat.5 100MHz 工作頻率
+&lt;br/&gt;
+‧Cat.5e 100MHz 工作頻率(為Cat.5加強型最大可到 350MHz 但無認證標準)
+&lt;br/&gt;
+‧Cat.6 1GHz 工作頻率(為十字對絞線，每對工作頻率 250MHz 共四對)
+&lt;br/&gt;
+‧Cat.5 - 100MHz / Cat.5e - 125MHz / Cat.6 -1Giga電腦網路 電纜線
+&lt;br/&gt;
+‧RJ-45 接頭 3 叉：適用於單芯網路線(一般網路線)，2 叉：用於七股線(軟線)
+&lt;/small&gt;
+</t>
+<t tx="yen.20161016012809.1">&lt;/section&gt;
+@others
+&lt;/section&gt;</t>
 <t tx="yen.20161016012809.2"></t>
-<t tx="yen.20161016023122.1">&lt;/section&gt;
-
-@others</t>
-<t tx="yen.20161016023122.2"></t>
+<t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161016023122.2">#用Leo開啟CMSimfly:
+&lt;small&gt;
+&lt;br/&gt;
+cd tmp-cd cmsimfy-python vsgi.py
+&lt;br/&gt;
+*flaskapp.py-tmp-cmsimfly-flaskapp.py
+&lt;br/&gt;
+程式碼沒分小節，太複雜不好更改不意管理。
+&lt;br/&gt;
+&lt;/small&gt;
+#小組網站:
+&lt;small&gt;
+&lt;br/&gt;
+1.config--改帳號和密碼
+&lt;br/&gt;
+2.image files upload--上傳檔案
+&lt;br/&gt;
+3.siteMap--所有階層頁面
+&lt;br/&gt;
+4.edit-選擇要加層標題-Formates-headings--加分支
+&lt;br/&gt;
+5.如要新增影片，要到程式碼貼上。
+&lt;/small&gt;</t>
 <t tx="yen.20161022111056.1">@language python
 import os
 import subprocess

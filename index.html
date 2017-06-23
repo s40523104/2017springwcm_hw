@@ -39,9 +39,9 @@
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-#郁淳的計算機程式課程
+#-網際網路內容管理-
 
-##四設一甲 40523104
+##四設一甲 40523104 馬郁淳
 <small>
 Created by [40523104](https://github.com/s40523104)
 </small>
@@ -56,26 +56,169 @@ Created by [40523104](https://github.com/s40523104)
 
 
 						
+<section data-markdown>
+    <script type="text/template">
+#用Leo開啟CMSimfly:
+<small>
+<br/>
+cd tmp-cd cmsimfy-python vsgi.py
+<br/>
+*flaskapp.py-tmp-cmsimfly-flaskapp.py
+<br/>
+程式碼沒分小節，太複雜不好更改不意管理。
+<br/>
+</small>
+#小組網站:
+<small>
+<br/>
+1.config--改帳號和密碼
+<br/>
+2.image files upload--上傳檔案
+<br/>
+3.siteMap--所有階層頁面
+<br/>
+4.edit-選擇要加層標題-Formates-headings--加分支
+<br/>
+5.如要新增影片，要到程式碼貼上。
+</small>
+    </script>
 </section>
+<section data-markdown>
+    <script type="text/template">
+#如何修改 stunnel.conf 檔案/給定啟動電腦 IP:
+<small>
+<br/>
+y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
+<br/>
+=>查IP:ipconig /all----->ip:X
+<br/>
+回Q的[https]下的accept改掉IP儲存
+<br/>
+去stunnel啟動configuration->Reload Configuration
+<br/>
+*倉儲名稱在tmp內
+<br/>
+</small>
 
+
+    </script>
 </section>
-
-
-						
+<section data-markdown>
+    <script type="text/template">
+#啟動 Fossil SCM:
+<small>
+<br/>
+建其他人的:
+<br/>
+--fossil init 4444.fossil
+<br/>
+--fossil sql -R 4444.fossil ("-R"是指定要看後面那一項的內容)
+<br/>
+問資料表--.schema user("user"資料表名稱)
+<br/>
+</small>
+#查對應管理密碼:
+<small>
+<br/>
+select login.pw.cap from user;("select"選擇"login""pw""cap"3個欄位
+<br/>
+*進入後改密碼就不是明碼了
+</small>
+    </script>
 </section>
-
+<section data-markdown>
+    <script type="text/template">
+#-虛擬主機-
+<br/>
+<small>
+到VatualBox管理員
+<br/>
+新增-ub(64-bit)-使用下載的虛擬碟
+<br/>
+ub設定-網路=>橋接介面卡-開啟
+<br/>
+=>輸入密碼-進入-sudo apt update-輸入密碼-(sudo rm /var/lib/dpkg/lock-sudo apt~~)-sudo apt install nginx-ifconfig-cd /var/www/html-/sudo vi index. nginx-debin.html
+<br/>
+*fossil clone http://domo@mde2a2.kmol.info/mad2a2 mde2a2.fossil
+<br/>
+("clone"從後免網址clone，"@後一串"綁定的帳號，"mde2a2.fossil"儲存地方
+<br/>
+<br/>
+Stunnel建立Fossil SCM server:
+<br/>
+pud-sudo vi /etc/cnvironment設定
+<br/>
+HTPS=ON---環境用HTPS
+<br/>
+打   /etc/init.d/stunnel4 restart/   可重新啟動stunnel4
+<br/>
+設定完成後重新開機---https://yourip連至mde2a1 fossil介面
+<br/>
+<br/>
+管理 html:
+<br/>
+跳轉:
+<br/>
+1.Html->meta代表中間無停留
+<br/>
+2.Java
+<br/>
+3."https://8.mde.tw"-使用者用
+</small>
+    </script>
 </section>
-
+<section data-markdown>
+    <script type="text/template">
+剪網路線:上網找其他的資料~
+<br/>
+<small>
+RJ45網路線接頭
+<br/>
+一定要有的工具：
+<br/>
+6P / 8P 網路線壓線鉗、8P8C網路接頭 、 保護套、斜口鉗、網路線。
+<br/>
+1.去皮。
+<br/>
+2.內線分四對，分別為橘白＋橘，綠白＋綠，藍白＋藍，棕白＋棕四對對絞。
+<br/>
+3.每對對絞線分開由左到右為橘白、橘、綠白、綠、藍白、藍，棕白、棕。
+<br/>
+4.整直後由左到右為橘白、橘、綠白、藍、藍白、綠，棕白、棕。
+<br/>
+5.將綠藍線對調。
+<br/>
+6.將線給插進去網路接頭內，固定彈片向外。
+<br/>
+7.壓線。
+<br/>
+<br/>
+以下節制網路補充:
+<br/>
+UTP 網路線：為八股對絞單芯線，無遮蔽
+<br/>
+‧FTP 網路線：為八股對絞單芯線，鋁箔遮蔽
+<br/>
+‧SFTP (簡稱STP)網路線：為八股對絞單芯線，鋁箔+銅編織網遮蔽
+<br/>
+‧Cat.5 100MHz 工作頻率
+<br/>
+‧Cat.5e 100MHz 工作頻率(為Cat.5加強型最大可到 350MHz 但無認證標準)
+<br/>
+‧Cat.6 1GHz 工作頻率(為十字對絞線，每對工作頻率 250MHz 共四對)
+<br/>
+‧Cat.5 - 100MHz / Cat.5e - 125MHz / Cat.6 -1Giga電腦網路 電纜線
+<br/>
+‧RJ-45 接頭 3 叉：適用於單芯網路線(一般網路線)，2 叉：用於七股線(軟線)
+</small>
+    </script>
 </section>
-
-
-						
 </section>
-
 </section>
-
 </section>
-
+</section>
+</section>
+</section>
 </div>
 
 </div>
