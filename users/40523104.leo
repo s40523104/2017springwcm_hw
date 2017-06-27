@@ -1030,10 +1030,14 @@ HTPS=ON---環境用HTPS
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="yen.20161011143808.1">&lt;/section&gt;
+<t tx="yen.20161011143808.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
-&lt;/section&gt;</t>
-<t tx="yen.20161011143808.2"></t>
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161011143808.2">讀機械的還是要會寫程式才能做到虛實整合&lt;/br&gt;
+但我還是喜歡用手做筆記再一次整理於網路上&lt;/br&gt;</t>
 <t tx="yen.20161011145156.1">&lt;/section&gt;
 @others
 &lt;/section&gt;</t>
