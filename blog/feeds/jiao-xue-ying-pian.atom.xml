@@ -1,5 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40523104的個人作業Blog</title><link href="./" rel="alternate"></link><link href="./feeds/jiao-xue-ying-pian.atom.xml" rel="self"></link><id>./</id><updated>2017-04-25T00:00:00+08:00</updated><entry><title>筆記030</title><link href="./bi-ji-030.html" rel="alternate"></link><published>2017-04-25T00:00:00+08:00</published><updated>2017-04-25T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-04-25:./bi-ji-030.html</id><summary type="html">&lt;p&gt;在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40523104的個人作業Blog</title><link href="./" rel="alternate"></link><link href="./feeds/jiao-xue-ying-pian.atom.xml" rel="self"></link><id>./</id><updated>2017-06-29T00:00:00+08:00</updated><entry><title>剪網路線:上網找其他的資料~</title><link href="./jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html</id><summary type="html">&lt;p&gt;RJ45網路線接頭
+&lt;br/&gt;
+一定要有的工具：
+&lt;br/&gt;
+6P / 8P 網路線壓線鉗、8P8C網路接頭 、 保護套、斜口鉗、網路線。
+&lt;br/&gt;
+1.去皮。
+&lt;br/&gt;
+2.內線分四對，分別為橘白＋橘，綠白＋綠，藍白＋藍，棕白＋棕四對對絞。
+&lt;br/&gt;
+3.每對對絞線分開由左到右為橘白、橘、綠白、綠、藍白、藍，棕白、棕。
+&lt;br/&gt;
+4.整直後由左到右為橘白、橘、綠白、藍、藍白、綠，棕白、棕。
+&lt;br/&gt;
+5.將綠藍線對調。
+&lt;br/&gt;
+6.將線給插進去網路接頭內，固定彈片向外。
+&lt;br/&gt;
+7.壓線。
+&lt;br/&gt;
+以下節制網路補充:
+&lt;br/&gt;
+UTP 網路線：為八股對絞單芯線，無遮蔽
+&lt;br/&gt;
+‧FTP 網路線：為八股對絞單芯線，鋁箔遮蔽
+&lt;br/&gt;
+‧SFTP (簡稱STP)網路線：為八股對絞單芯線，鋁箔+銅編織網遮蔽
+&lt;br/&gt;
+‧Cat.5 100MHz 工作頻率
+&lt;br/&gt;
+‧Cat.5e 100MHz 工作頻率(為Cat.5加強型最大可到 350MHz 但無認證標準)
+&lt;br/&gt;
+‧Cat.6 1GHz 工作頻率(為十字對絞線，每對工作頻率 250MHz 共四對)
+&lt;br/&gt;
+‧Cat.5 - 100MHz / Cat.5e - 125MHz / Cat.6 -1Giga電腦網路 電纜線
+&lt;br/&gt;
+‧RJ-45 接頭 3 叉：適用於單芯網路線(一般網路線)，2 叉：用於七股線(軟線)&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>啟動 Fossil SCM</title><link href="./qi-dong-fossil-scm.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./qi-dong-fossil-scm.html</id><summary type="html">&lt;p&gt;建其他人的:
+&lt;br/&gt;
+--fossil init 4444.fossil
+&lt;br/&gt;
+--fossil sql -R 4444.fossil ("-R"是指定要看後面那一項的內容)
+&lt;br/&gt;
+問資料表--.schema user("user"資料表名稱)&lt;/p&gt;
+&lt;p&gt;查對應管理密碼
+&lt;br/&gt;
+select login.pw.cap from user;("select"選擇"login""pw""cap"3個欄位
+&lt;br/&gt;
+*進入後改密碼就不是明碼了&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>如何修改 stunnel.conf 檔案/給定啟動電腦 IP</title><link href="./ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html</id><summary type="html">&lt;p&gt;y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
+&lt;br/&gt;
+=&amp;gt;查IP:ipconig /all-----&amp;gt;ip:X
+&lt;br/&gt;
+回Q的[https]下的accept改掉IP儲存
+&lt;br/&gt;
+去stunnel啟動configuration-&amp;gt;Reload Configuration
+&lt;br/&gt;
+*倉儲名稱在tmp內
+&lt;br/&gt;&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>小組網站</title><link href="./xiao-zu-wang-zhan.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./xiao-zu-wang-zhan.html</id><summary type="html">&lt;p&gt;1.config--改帳號和密碼
+&lt;br/&gt;
+2.image files upload--上傳檔案
+&lt;br/&gt;
+3.siteMap--所有階層頁面
+&lt;br/&gt;
+4.edit-選擇要加層標題-Formates-headings--加分支
+&lt;br/&gt;
+5.如要新增影片，要到程式碼貼上。&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>虛擬主機</title><link href="./xu-ni-zhu-ji.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./xu-ni-zhu-ji.html</id><summary type="html">&lt;p&gt;到VatualBox管理員
+&lt;br/&gt;
+新增-ub(64-bit)-使用下載的虛擬碟
+&lt;br/&gt;
+ub設定-網路=&amp;gt;橋接介面卡-開啟
+&lt;br/&gt;
+=&amp;gt;輸入密碼-進入-sudo apt update-輸入密碼-(sudo rm /var/lib/dpkg/lock-sudo apt~~)-sudo apt install nginx-ifconfig-cd /var/www/html-/sudo vi index. nginx-debin.html
+&lt;br/&gt;
+*fossil clone http://domo@mde2a2.kmol.info/mad2a2 mde2a2.fossil
+&lt;br/&gt;
+("clone"從後免網址clone，"@後一串"綁定的帳號，"mde2a2.fossil"儲存地方
+&lt;br/&gt;
+&lt;br/&gt;
+Stunnel建立Fossil SCM server:
+&lt;br/&gt;
+pud-sudo vi /etc/cnvironment設定
+&lt;br/&gt;
+HTPS=ON---環境用HTPS
+&lt;br/&gt;
+打   /etc/init.d/stunnel4 restart/   可重新啟動stunnel4
+&lt;br/&gt;
+設定完成後重新開機---https://yourip連至mde2a1 fossil介面
+&lt;br/&gt;
+&lt;br/&gt;
+管理 html:
+&lt;br/&gt;
+跳轉:
+&lt;br/&gt;
+1.Html-&amp;gt;meta代表中間無停留
+&lt;br/&gt;
+2.Java
+&lt;br/&gt;
+3."https://8.mde.tw"-使用者用&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>學習目標</title><link href="./xue-xi-mu-biao.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./xue-xi-mu-biao.html</id><summary type="html">&lt;p&gt;使用Ubuntu系統，並在純ipv6狀態下管理網際內容。&lt;br/&gt;
+期中目標：&lt;br/&gt;
+製作網路線分組組裝電腦，安裝設定Ubuntu系統，連接網路並學習使用putty遠端操作電腦。&lt;br/&gt;
+期末目標：&lt;br/&gt;
+於電腦上架設stunnel與CMsimfly。&lt;br/&gt;
+目前小組進度：&lt;br/&gt;
+已完成進度到fossil架設，正在架設CMsimfly至主機內。&lt;br/&gt;&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>用Leo開啟CMSimfly</title><link href="./yong-leokai-qi-cmsimfly.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./yong-leokai-qi-cmsimfly.html</id><summary type="html">&lt;p&gt;cd tmp-cd cmsimfy-python vsgi.py
+&lt;br/&gt;
+*flaskapp.py-tmp-cmsimfly-flaskapp.py
+&lt;br/&gt;
+程式碼沒分小節，太複雜不好更改不意管理。&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>筆記030</title><link href="./bi-ji-030.html" rel="alternate"></link><published>2017-04-25T00:00:00+08:00</published><updated>2017-04-25T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-04-25:./bi-ji-030.html</id><summary type="html">&lt;p&gt;在虛擬機(virtualbox 16.04)啟動stunnel與fossil Scm&lt;/p&gt;
 &lt;p&gt;X Term:
 - cd 目前所在目錄
 - pwd 印出所在工作

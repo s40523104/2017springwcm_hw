@@ -5,29 +5,78 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-06-29T17:51:21-00:00</lastmod>
+<lastmod>2017-06-29T17:59:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-06-29T17:51:21-00:00</lastmod>
+<lastmod>2017-06-29T17:59:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-06-29T17:51:21-00:00</lastmod>
+<lastmod>2017-06-29T17:59:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-06-29T17:51:21-00:00</lastmod>
+<lastmod>2017-06-29T17:59:21-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./jian-wang-lu-xian-shang-wang-zhao-qi-ta-de-zi-liao.html</loc>
+<lastmod>2017-06-29T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./qi-dong-fossil-scm.html</loc>
+<lastmod>2017-06-29T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html</loc>
+<lastmod>2017-06-29T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./xiao-zu-wang-zhan.html</loc>
+<lastmod>2017-06-29T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./xu-ni-zhu-ji.html</loc>
+<lastmod>2017-06-29T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./xue-xi-mu-biao.html</loc>
+<lastmod>2017-06-29T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./yong-leokai-qi-cmsimfly.html</loc>
+<lastmod>2017-06-29T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -61,14 +110,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/jiao-xue-ying-pian.html</loc>
-<lastmod>2017-04-25T00:00:00+08:06</lastmod>
+<lastmod>2017-06-29T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/yuan-duan-zi-liao.html</loc>
-<lastmod>2017-04-25T00:00:00+08:06</lastmod>
+<lastmod>2017-06-29T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -82,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/ma-yu-chun.html</loc>
-<lastmod>2017-04-25T00:00:00+08:06</lastmod>
+<lastmod>2017-06-29T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
