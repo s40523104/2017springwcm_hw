@@ -46,7 +46,7 @@ UTP 網路線：為八股對絞單芯線，無遮蔽
 &lt;br/&gt;
 select login.pw.cap from user;("select"選擇"login""pw""cap"3個欄位
 &lt;br/&gt;
-*進入後改密碼就不是明碼了&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>如何修改 stunnel.conf 檔案/給定啟動電腦 IP</title><link href="./ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html</id><summary type="html">&lt;p&gt;y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
+*進入後改密碼就不是明碼了  &lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>如何修改 stunnel.conf 檔案/給定啟動電腦 IP</title><link href="./ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./ru-he-xiu-gai-stunnelconf-dang-an-gei-ding-qi-dong-dian-nao-ip.html</id><summary type="html">&lt;p&gt;y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
 &lt;br/&gt;
 =&amp;gt;查IP:ipconig /all-----&amp;gt;ip:X
 &lt;br/&gt;
@@ -55,7 +55,7 @@ select login.pw.cap from user;("select"選擇"login""pw""cap"3個欄位
 去stunnel啟動configuration-&amp;gt;Reload Configuration
 &lt;br/&gt;
 *倉儲名稱在tmp內
-&lt;br/&gt;&lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>小組網站</title><link href="./xiao-zu-wang-zhan.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./xiao-zu-wang-zhan.html</id><summary type="html">&lt;p&gt;1.config--改帳號和密碼
+&lt;br/&gt; &lt;/p&gt;</summary><category term="遠端資料"></category></entry><entry><title>小組網站</title><link href="./xiao-zu-wang-zhan.html" rel="alternate"></link><published>2017-06-29T00:00:00+08:00</published><updated>2017-06-29T00:00:00+08:00</updated><author><name>馬郁淳</name></author><id>tag:,2017-06-29:./xiao-zu-wang-zhan.html</id><summary type="html">&lt;p&gt;1.config--改帳號和密碼
 &lt;br/&gt;
 2.image files upload--上傳檔案
 &lt;br/&gt;
@@ -151,7 +151,7 @@ HTPS=ON---環境用HTPS
 (如沒密碼5-fossil remote-uel off)
 6-fossil psuh 
 7-ipconfig/all
-8-ping 自己的IP
+8-ping 自己的IP 
 9-ping 外部Gateway
 10-ping 外部IP
 11-tracert 區網主要網址
