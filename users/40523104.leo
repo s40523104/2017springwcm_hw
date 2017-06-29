@@ -384,23 +384,29 @@ DEFAULT_DATE = 'fs'</t>
 </t>
 <t tx="leo.20170421014941.3"></t>
 <t tx="leo.20170421014941.4"></t>
-<t tx="leo.20170421015127.1">#如何修改 stunnel.conf 檔案/給定啟動電腦 IP:
+<t tx="leo.20170421015127.1">#用Leo開啟CMSimfly:
 &lt;small&gt;
 &lt;br/&gt;
-y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
+cd tmp-cd cmsimfy-python vsgi.py
 &lt;br/&gt;
-=&gt;查IP:ipconig /all-----&gt;ip:X
+*flaskapp.py-tmp-cmsimfly-flaskapp.py
 &lt;br/&gt;
-回Q的[https]下的accept改掉IP儲存
-&lt;br/&gt;
-去stunnel啟動configuration-&gt;Reload Configuration
-&lt;br/&gt;
-*倉儲名稱在tmp內
+程式碼沒分小節，太複雜不好更改不意管理。
 &lt;br/&gt;
 &lt;/small&gt;
-
-
-</t>
+#小組網站:
+&lt;small&gt;
+&lt;br/&gt;
+1.config--改帳號和密碼
+&lt;br/&gt;
+2.image files upload--上傳檔案
+&lt;br/&gt;
+3.siteMap--所有階層頁面
+&lt;br/&gt;
+4.edit-選擇要加層標題-Formates-headings--加分支
+&lt;br/&gt;
+5.如要新增影片，要到程式碼貼上。
+&lt;/small&gt;</t>
 <t tx="leo.20170421115328.10">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -981,74 +987,7 @@ Diff...
 - &lt;p&gt;&lt;a href="https://vimeo.com/191363717"&gt;github&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 -     &lt;/script&gt;
 </t>
-<t tx="yen.20161011122601.1">#-虛擬主機-
-&lt;br/&gt;
-&lt;small&gt;
-到VatualBox管理員
-&lt;br/&gt;
-新增-ub(64-bit)-使用下載的虛擬碟
-&lt;br/&gt;
-ub設定-網路=&gt;橋接介面卡-開啟
-&lt;br/&gt;
-=&gt;輸入密碼-進入-sudo apt update-輸入密碼-(sudo rm /var/lib/dpkg/lock-sudo apt~~)-sudo apt install nginx-ifconfig-cd /var/www/html-/sudo vi index. nginx-debin.html
-&lt;br/&gt;
-*fossil clone http://domo@mde2a2.kmol.info/mad2a2 mde2a2.fossil
-&lt;br/&gt;
-("clone"從後免網址clone，"@後一串"綁定的帳號，"mde2a2.fossil"儲存地方
-&lt;br/&gt;
-&lt;br/&gt;
-Stunnel建立Fossil SCM server:
-&lt;br/&gt;
-pud-sudo vi /etc/cnvironment設定
-&lt;br/&gt;
-HTPS=ON---環境用HTPS
-&lt;br/&gt;
-打   /etc/init.d/stunnel4 restart/   可重新啟動stunnel4
-&lt;br/&gt;
-設定完成後重新開機---https://yourip連至mde2a1 fossil介面
-&lt;br/&gt;
-&lt;br/&gt;
-管理 html:
-&lt;br/&gt;
-跳轉:
-&lt;br/&gt;
-1.Html-&gt;meta代表中間無停留
-&lt;br/&gt;
-2.Java
-&lt;br/&gt;
-3."https://8.mde.tw"-使用者用
-&lt;/small&gt;</t>
-<t tx="yen.20161011122932.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="yen.20161011125115.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="yen.20161011143808.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="yen.20161011143808.2">讀機械的還是要會寫程式才能做到虛實整合&lt;/br&gt;
-但我還是喜歡用手做筆記再一次整理於網路上&lt;/br&gt;</t>
-<t tx="yen.20161011145156.1">&lt;/section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="yen.20161011145156.2"></t>
-<t tx="yen.20161016004633.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="yen.20161016004633.4">#啟動 Fossil SCM:
+<t tx="yen.20161011122601.1">#啟動 Fossil SCM:
 &lt;small&gt;
 &lt;br/&gt;
 建其他人的:
@@ -1068,7 +1007,25 @@ select login.pw.cap from user;("select"選擇"login""pw""cap"3個欄位
 *進入後改密碼就不是明碼了
 &lt;/small&gt;
 </t>
-<t tx="yen.20161016011920.1">剪網路線:上網找其他的資料~
+<t tx="yen.20161011122932.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161011125115.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161011143808.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161011143808.2">剪網路線:上網找其他的資料~
 &lt;br/&gt;
 &lt;small&gt;
 RJ45網路線接頭
@@ -1109,6 +1066,72 @@ UTP 網路線：為八股對絞單芯線，無遮蔽
 ‧Cat.5 - 100MHz / Cat.5e - 125MHz / Cat.6 -1Giga電腦網路 電纜線
 &lt;br/&gt;
 ‧RJ-45 接頭 3 叉：適用於單芯網路線(一般網路線)，2 叉：用於七股線(軟線)
+&lt;/small&gt;</t>
+<t tx="yen.20161011145156.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161011145156.2">讀機械的還是要會寫程式才能做到虛實整合&lt;/br&gt;</t>
+<t tx="yen.20161016004633.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161016004633.4">#如何修改 stunnel.conf 檔案/給定啟動電腦 IP:
+&lt;small&gt;
+&lt;br/&gt;
+y槽-stunnel-config-stunnel.cof(設定檔案)-抓出來Q
+&lt;br/&gt;
+=&gt;查IP:ipconig /all-----&gt;ip:X
+&lt;br/&gt;
+回Q的[https]下的accept改掉IP儲存
+&lt;br/&gt;
+去stunnel啟動configuration-&gt;Reload Configuration
+&lt;br/&gt;
+*倉儲名稱在tmp內
+&lt;br/&gt;
+&lt;/small&gt;
+
+</t>
+<t tx="yen.20161016011920.1">#-虛擬主機-
+&lt;br/&gt;
+&lt;small&gt;
+到VatualBox管理員
+&lt;br/&gt;
+新增-ub(64-bit)-使用下載的虛擬碟
+&lt;br/&gt;
+ub設定-網路=&gt;橋接介面卡-開啟
+&lt;br/&gt;
+=&gt;輸入密碼-進入-sudo apt update-輸入密碼-(sudo rm /var/lib/dpkg/lock-sudo apt~~)-sudo apt install nginx-ifconfig-cd /var/www/html-/sudo vi index. nginx-debin.html
+&lt;br/&gt;
+*fossil clone http://domo@mde2a2.kmol.info/mad2a2 mde2a2.fossil
+&lt;br/&gt;
+("clone"從後免網址clone，"@後一串"綁定的帳號，"mde2a2.fossil"儲存地方
+&lt;br/&gt;
+&lt;br/&gt;
+Stunnel建立Fossil SCM server:
+&lt;br/&gt;
+pud-sudo vi /etc/cnvironment設定
+&lt;br/&gt;
+HTPS=ON---環境用HTPS
+&lt;br/&gt;
+打   /etc/init.d/stunnel4 restart/   可重新啟動stunnel4
+&lt;br/&gt;
+設定完成後重新開機---https://yourip連至mde2a1 fossil介面
+&lt;br/&gt;
+&lt;br/&gt;
+管理 html:
+&lt;br/&gt;
+跳轉:
+&lt;br/&gt;
+1.Html-&gt;meta代表中間無停留
+&lt;br/&gt;
+2.Java
+&lt;br/&gt;
+3."https://8.mde.tw"-使用者用
 &lt;/small&gt;
 </t>
 <t tx="yen.20161016012809.1">&lt;/section&gt;
@@ -1121,29 +1144,14 @@ UTP 網路線：為八股對絞單芯線，無遮蔽
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="yen.20161016023122.2">#用Leo開啟CMSimfly:
-&lt;small&gt;
-&lt;br/&gt;
-cd tmp-cd cmsimfy-python vsgi.py
-&lt;br/&gt;
-*flaskapp.py-tmp-cmsimfly-flaskapp.py
-&lt;br/&gt;
-程式碼沒分小節，太複雜不好更改不意管理。
-&lt;br/&gt;
-&lt;/small&gt;
-#小組網站:
-&lt;small&gt;
-&lt;br/&gt;
-1.config--改帳號和密碼
-&lt;br/&gt;
-2.image files upload--上傳檔案
-&lt;br/&gt;
-3.siteMap--所有階層頁面
-&lt;br/&gt;
-4.edit-選擇要加層標題-Formates-headings--加分支
-&lt;br/&gt;
-5.如要新增影片，要到程式碼貼上。
-&lt;/small&gt;</t>
+<t tx="yen.20161016023122.2">#學習目標
+使用Ubuntu系統，並在純ipv6狀態下管理網際內容。&lt;br/&gt;
+期中目標：&lt;br/&gt;
+製作網路線分組組裝電腦，安裝設定Ubuntu系統，連接網路並學習使用putty遠端操作電腦。&lt;br/&gt;
+期末目標：&lt;br/&gt;
+於電腦上架設stunnel與CMsimfly。&lt;br/&gt;
+目前小組進度：&lt;br/&gt;
+已完成進度到fossil架設，正在架設CMsimfly至主機內。&lt;br/&gt;</t>
 <t tx="yen.20161022111056.1">@language python
 import os
 import subprocess
